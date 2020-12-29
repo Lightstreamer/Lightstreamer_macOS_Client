@@ -14,11 +14,23 @@ let package = Package(
     products: [
         .library(
             name: "Lightstreamer_macOS_Client", 
-            targets: ["Lightstreamer_macOS_Client"]
+            targets: ["Lightstreamer_macOS_Client_Wrapper"]
         )
     ],
     dependencies: [],
     targets: [
+        .target(
+            name: "Lightstreamer_macOS_Client_Wrapper",
+            dependencies: [
+                .target(name: "Lightstreamer_macOS_Client")
+            ],
+            path: "Sources",
+            linkerSettings: [
+                .linkedLibrary("iconv"),
+                .linkedFramework("Security"),
+                .linkedFramework("SystemConfiguration")
+            ]
+        ),
         .binaryTarget(
             name: "Lightstreamer_macOS_Client", 
             url: "https://www.lightstreamer.com/repo/cocoapods/ls-macos-client/4.3.0/ls-macos-client-4.3.0.zip", 
