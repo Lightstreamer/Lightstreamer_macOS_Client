@@ -8,6 +8,9 @@ import PackageDescription
 
 let package = Package(
     name: "Lightstreamer_macOS_Client",
+    platforms: [
+        .macOS("10.10")
+    ],
     products: [
         .library(
             name: "Lightstreamer_macOS_Client", 
