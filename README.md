@@ -22,8 +22,6 @@ Follow these simple steps:
   #import <Lightstreamer_macOS_Client/Lightstreamer_macOS_Client.h>
   ```
 
-Check the [Client library repository](https://github.com/Lightstreamer/Lightstreamer_macOS_Client) for any newer version.
-
 ## Importing the Library Traditionally
 
 If Swift Package Manager is not for you, you can still install the library more traditionally by following these steps:
@@ -38,5 +36,3 @@ If Swift Package Manager is not for you, you can still install the library more 
   ```
   #import <Lightstreamer_macOS_Client/Lightstreamer_macOS_Client.h>
   ```
-
-Check the [download site](https://www.lightstreamer.com/repo/cocoapods/ls-macos-client) for any newer version.
