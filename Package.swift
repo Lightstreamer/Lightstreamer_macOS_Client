@@ -33,7 +33,7 @@ let package = Package(
         ),
         .binaryTarget(
             name: "Lightstreamer_macOS_Client", 
-            url: "https://www.lightstreamer.com/repo/cocoapods/ls-macos-client/4.3.2/ls-macos-client-4.3.2.zip", 
+            url: "https://sdk.lightstreamer.com/ls-macos-client/4.3.2/lib/ls-macos-client-4.3.2.zip", 
             checksum: "6563d3a994ccb725c5e2e736351065d2449f2676976b9aef71c02c1fb51f0be9"
         )
     ]
