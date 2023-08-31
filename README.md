@@ -1,8 +1,6 @@
 # Lightstreamer SDK for macOS Clients
 
-> ⚠️ **This library is deprecated!**
->
-> Use the new [Lightstreamer Swift Client SDK](https://github.com/Lightstreamer/Lightstreamer-lib-client-swift) instead.
+> ⚠️ **This library has been superseded by a new Lightstreamer Client SDK and is no longer actively maintained. Please find the updated library in the [🔥Lightstreamer Swift Client SDK🔥](https://github.com/Lightstreamer/Lightstreamer-lib-client-swift)**
 
 This client implements the Lightstreamer Unified Client API. The goal of the Unified API is to offer a common set of interfaces and functionalities across different languages and platforms.
 
